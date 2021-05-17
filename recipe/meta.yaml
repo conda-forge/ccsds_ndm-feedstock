@@ -1,5 +1,5 @@
 {% set name = "ccsds_ndm" %}
-{% set version = "2.0" %}
+{% set version = "2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7802527a791c7be71a60cd186b1cc26570988bc03e598df5f7db87c6ab4a9aa7
+  sha256: fcb290c80389ed3b8a409898f8803fed698e13f1d86518bd0c92cd3699e805d7
 
 build:
   number: 0
