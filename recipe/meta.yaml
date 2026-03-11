@@ -20,8 +20,10 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - xsdata
-
+    - lxml >=6.0
+    - lxml-stubs >=0.5
+    - xsdata >=26
+    
 test:
   imports:
     - ccsds_ndm
