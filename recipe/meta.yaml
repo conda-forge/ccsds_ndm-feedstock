@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - flit-core
   run:
     - python >={{ python_min }}
     - xsdata
