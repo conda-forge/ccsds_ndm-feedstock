@@ -10,7 +10,7 @@ source:
   sha256: a7125fa74e97640440de15303d409d63f7f4f7c59975f9e19dbc80cec210495e
 
 build:
-  number: 4
+  number: 5
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
@@ -21,7 +21,9 @@ requirements:
     - flit-core
   run:
     - python >={{ python_min }}
-    - xsdata
+    - lxml >=6.0
+    - lxml-stubs >=0.5
+    - xsdata >=26
 
 test:
   imports:
