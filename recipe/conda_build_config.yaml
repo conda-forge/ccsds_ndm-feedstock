@@ -1,1 +1,2 @@
-python_min: "3.10"
+python_min:
+  - "3.10"
